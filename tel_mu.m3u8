@@ -20,7 +20,7 @@ rtp://233.18.204.65:5140?fcc=124.75.25.211%3A7777
 #EXTINF: -1 tvg-name="上海教育" group-title="上海文广" tvg-id="上海教育" tvg-logo="https://cdn.jsdelivr.net/gh/ihipop/Shanghai-IPTV@master/tv-logo/上海教育.png", 上海教育
 rtp://233.18.204.63:5140?fcc=124.75.25.211%3A7777
 #EXTINF: -1 tvg-name="CCTV1" group-title="CCTV" tvg-id="CCTV1" tvg-logo="https://cdn.jsdelivr.net/gh/ihipop/Shanghai-IPTV@master/tv-logo/CCTV1.png", CCTV1
-rtp://233.18.204.168:5140?fcc=124.75.25.211%3A7777
+rtp://233.18.204.52:5140?fcc=124.75.25.211%3A7777
 #EXTINF: -1 tvg-name="CCTV2" group-title="CCTV" tvg-id="CCTV2" tvg-logo="https://cdn.jsdelivr.net/gh/ihipop/Shanghai-IPTV@master/tv-logo/CCTV2.png", CCTV2
 rtp://233.18.204.68:5140?fcc=124.75.25.211%3A7777
 #EXTINF: -1 tvg-name="CCTV3" group-title="CCTV" tvg-id="CCTV3" tvg-logo="https://cdn.jsdelivr.net/gh/ihipop/Shanghai-IPTV@master/tv-logo/CCTV3.png", CCTV3

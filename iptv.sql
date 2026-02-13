@@ -161,8 +161,7 @@ INSERT INTO channel_streams VALUES(24,23,'rtp://233.18.204.169:5140','4K',1,'act
 INSERT INTO channel_streams VALUES(25,24,'rtp://233.18.204.170:5140','4K',1,'active','2026-01-03 14:47:15','2026-01-03 14:47:15');
 INSERT INTO channel_streams VALUES(26,25,'rtp://233.18.204.116:5140','HD',1,'active','2026-01-03 14:47:15','2026-01-03 14:47:15');
 INSERT INTO channel_streams VALUES(28,27,'rtp://233.18.204.201:5140','HD',1,'active','2026-01-03 14:47:15','2026-01-03 14:47:15');
-INSERT INTO channel_streams VALUES(29,28,'rtp://233.18.204.168:5140','HD',1,'active','2026-01-03 14:47:15','2026-01-03 14:47:15');
-INSERT INTO channel_streams VALUES(30,28,'rtp://233.18.204.52:5140','HD',2,'active','2026-01-03 14:47:15','2026-01-03 14:47:15');
+INSERT INTO channel_streams VALUES(30,28,'rtp://233.18.204.52:5140','HD',1,'active','2026-01-03 14:47:15','2026-01-03 14:47:15');
 INSERT INTO channel_streams VALUES(31,29,'rtp://233.18.204.68:5140','HD',1,'active','2026-01-03 14:47:15','2026-01-03 14:47:15');
 INSERT INTO channel_streams VALUES(32,30,'rtp://233.18.204.69:5140','HD',1,'active','2026-01-03 14:47:15','2026-01-03 14:47:15');
 INSERT INTO channel_streams VALUES(33,31,'rtp://233.18.204.70:5140','HD',1,'active','2026-01-03 14:47:15','2026-01-03 14:47:15');

@@ -2,7 +2,7 @@ name: Sync Upstream
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 21 * * *'
   workflow_dispatch:
 
 jobs:
@@ -21,4 +21,13 @@ jobs:
           git remote add upstream https://github.com/ihipop/Shanghai-IPTV
           git fetch upstream master
           git merge upstream/master --no-edit
+
+      - name: Generate shanghai-iptv.m3u8
+        run: |
+          sed -E 's|rtp://([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+):([0-9]+).*|http://192.168.20.1:4022/udp/\1:\2|' tel_mu.m3u8 > shanghai-iptv.m3u8
+
+      - name: Commit and push
+        run: |
+          git add shanghai-iptv.m3u8
+          git diff --cached --quiet || git commit -m "Auto-generate shanghai-iptv.m3u8 with udpxy"
           git push origin master
